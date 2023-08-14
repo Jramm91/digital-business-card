@@ -1,0 +1,158 @@
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;  
+}
+
+
+html, body {
+  background: #e9d8ef;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.container-sm {
+  background: #FBC40E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: solid 3px black;
+  width: 400px;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  min-width: 65%;
+}
+
+.info > h1 {
+  font-size: 32px;
+  color: #f5f5f5;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.info > h3 {
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.035em;
+
+color: #F5F5F5;
+
+text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 0;
+
+}
+
+.info > a > img {
+  max-width: auto;
+  max-height: 6.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+}
+
+.info > a > img:hover {
+  filter: invert(100%);
+
+}
+
+.contact {
+  margin-bottom: 2.5rem;
+}
+
+.contact > div {
+  display: grid;
+  grid-template-columns: 24px 2fr;
+  align-items: center;
+  padding: .5rem 0;
+}
+
+ion-icon {
+  font-size: 1.5rem;
+}
+
+.contact > div > a {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.contact > div > a:hover {
+  color: #535bf2;
+}
+
+#phone--text {
+  letter-spacing: .075rem;
+  font-size: 1.3rem;
+}
+
+#address--text {
+  letter-spacing: .075rem;
+  font-size: 1.2rem;
+}
+
+.about {
+  text-align: justify;
+  width: 300px;
+}
+
+.about > h3 {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #535bf2;
+  min-width: 100%;
+  margin-top: 1.75rem;
+  /* padding: 12px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2rem;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links-container > a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.links-container > a:hover {
+  color: white;
+}
+.links-container > a > img {
+  width: 23px;
+}
+
+.links-container > a > img:hover {
+  filter: invert(100%);
+}
