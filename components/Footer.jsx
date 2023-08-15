@@ -1,3 +1,5 @@
+import dgLogoSm from '../src/assets/dg-log-sm.png'
+
 export default function Footer() {
     return (
         <footer>
@@ -9,7 +11,7 @@ export default function Footer() {
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
                 <a href='https://www.instagram.com/doadoublegood/?hl=en'>
-                    <img src="../src/assets/dg-logo-sm.png" />
+                    <img src={dgLogoSm} />
                 </a>
             </div>
         </footer>
