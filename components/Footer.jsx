@@ -1,4 +1,4 @@
-import dgLogoSm from '../src/assets/dg-log-sm.png'
+import dgLogoSm from '../src/assets/dg-logo-sm.png'
 
 export default function Footer() {
     return (
